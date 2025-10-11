@@ -1,0 +1,9 @@
+Review of Session 1: JVM workflow, classes, and data typesQuick quiz or code walkthrough2. Static vs Instance Concepts (30 mins)
+Difference between static and instance variables/methodsAccessing static members using class namesBest practices and common pitfalls3. Object-Oriented Programming – Part 2 (45 mins)
+Deep dive into the four OOP pillars:Encapsulation: Using access modifiersInheritance: Code reuse and class hierarchiesAbstraction: Abstract classes and interfacesPolymorphism: Compile-time (overloading) vs Runtime (overriding)Real-world examples and analogies4. Hands-on Coding Exercise (45 mins)
+Build a Learner Information Management ProgramUse of Scanner class for user inputMenu-driven flow using loops and conditionsImplement constructor overloading, error handling, and validation5. Exception Handling & Best Practices (20 mins)
+try-catch blocks and error flow controlImportance of type safety and conversion6. Beyond the Basics (20 mins)
+JVM memory areas: Heap, Method area, MetaspacePreview of upcoming topics: web APIs, backend development paths7. Wrap-up & Feedback (10 mins)
+Recap of key learning pointsAssign practice tasks and encourage GitHub submissions
+🧩 Takeaways
+Strong grasp of OOP principles and their implementationUnderstanding of static vs instance logic in JavaAbility to structure small-scale Java programs using OOPPreparedness for advanced Java concepts and backend applications
