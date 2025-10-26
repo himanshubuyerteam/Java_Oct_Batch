@@ -1,3 +1,4 @@
+package OOPS1;
 class Person
 {
     int marks;

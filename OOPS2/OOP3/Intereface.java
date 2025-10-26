@@ -4,6 +4,7 @@ interface MusicSystem
 {
     void playMusic();
     void pauseMusic();
+    void stopMusic();
 }
 class BoatMusicSystem implements MusicSystem
 {
@@ -28,7 +29,17 @@ class BoseMusicSystem implements MusicSystem
         System.out.println("Bose Music Pause");
     }
 }
-
+class SonyMS
+{
+    public void playMusic()
+    {
+        System.out.println("Bose Music Play");
+    }
+    public void pauseMusic()
+    {
+        System.out.println("Bose Music Pause");
+    }
+}
 class Car
 {
     MusicSystem carms;
@@ -50,8 +61,10 @@ public class Intereface {
     public static void main(String[] args) {
         BoatMusicSystem bms=new BoatMusicSystem();
         BoseMusicSystem bms2=new BoseMusicSystem();
+        SonyMS sms1=new SonyMS();
         Car c1=new Car(bms);
         Car c2=new Car(bms2);
+        // Car c3=new Car(sms)
         c1.playMusic();
         c2.playMusic();
     }
