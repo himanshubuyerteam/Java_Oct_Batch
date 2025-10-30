@@ -59,5 +59,18 @@ class CashPayment implements Payment {
     // Note: No refund() method - cash doesn't implement RefundablePayment
 }
 public class LSP_AFTER {
+    public static void main(String[] args) {
+        
+        CashPayment cashPayment = new CashPayment(0.0);
+        cashPayment.processPayment();
+        System.out.println("Processing fee: $" + cashPayment.getProcessingFee());
+
+
+        CreditCardPayment ccp = new CreditCardPayment(0.0);
+        ccp.processPayment();
+        System.out.println("Processing fee: $" + ccp.getProcessingFee());
+        ccp.refund();
+        
     
+    }
 }

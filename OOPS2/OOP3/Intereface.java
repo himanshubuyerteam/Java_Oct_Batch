@@ -42,6 +42,8 @@ class SonyMS
 }
 class Car
 {
+    // MusicSystem carms;
+    // BoseMusicSystem bms;
     MusicSystem carms;
     Car(MusicSystem ms)
     {
